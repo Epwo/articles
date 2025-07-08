@@ -11,5 +11,5 @@ The purpose of this task, was to find and extracts categories from a csv contain
 
 to illustrate, if we take the disneyland review csv, we want to extract like; `parking problems` , `waiting line issues`, `safety` etc..
 
-# 
+salut toi
  *WIP*
