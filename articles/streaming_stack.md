@@ -3,7 +3,7 @@ title: "How I 'made' my custom media suite"
 date: "2025-08-07"
 theme: "Coding"
 summary: "Explanation of the differents bricks used to make a media suite, for me and my family. Using open source docker projects."
-image: "https://github.com/Epwo/articles/blob/d9b4ed48e8e9c0a4c082673b9595e06ec3ebe2b2/images/stream_stack/stream_stack.png"
+image: "https://raw.githubusercontent.com/Epwo/articles/d9b4ed48e8e9c0a4c082673b9595e06ec3ebe2b2/images/stream_stack/stream_stack.png"
 ---
 
 # The purpose
