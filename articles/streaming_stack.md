@@ -18,7 +18,7 @@ Turns out, this old laptop was really too old. So i went ahead and bought an old
 This is obviously for movies, my and my family own physically ( via blue-rays or CDs ). Downloading movies you don't own is illegal (I think?)
 
 ## Schematic
-![the schematic](../images/stream_stack/schematic.svg)
+![the schematic](https://raw.githubusercontent.com/Epwo/articles/1d91301d9f3b6205b72fdb24dbcc969d7ea255a8/images/stream_stack/schematic.svg)
 
 
 ## How it works ?
