@@ -21,7 +21,7 @@ My idea was as follow:
 To get the meaning of each verbatim, I choose to use the transformers-based models.
 The main supposition I made was that, if we look at the highest values attentions score of the sentence we could extract its meaning.
 This is an idea based of the human way of learning a new language, if I try to learn german. I am really bad at german, therefore I can't understand nor translate word by word, I will however be able to understand the overall meaning of the sentence. That is because I can pick up 2 or 3 words around the subject and an adjective.
-![alt text](../images/nlp_exp/image.png)
+![alt text](https://raw.githubusercontent.com/Epwo/articles/refs/heads/main/images/nlp_exp/image.png)
 
 Therefore, if we look at the attention layer of a transformer-based model this should give us an idea of the words contaning most of the meaning of each verbatim.
 # The model 
@@ -29,7 +29,7 @@ Because our verbatims will be in french, I choose to go with the latest camem-BE
 [moderncamembert](https://huggingface.co/almanach/moderncamembert-base)
 
 So we will for each row of the given csv ( each row representing a verbatim )
-![step one of the process](../images/nlp_exp/step1.png)
+![step one of the process](https://raw.githubusercontent.com/Epwo/articles/refs/heads/main/images/nlp_exp/step1.png)
 
 However, if you know the transformers-based models quite well. You know that there are two mains issues with just going with the data as it is.
 ## 1st issue
@@ -43,4 +43,4 @@ Which means that we can recreate thoses words !
 (For camembert it is actuallly splitting the words like this : lamentable ->  lam, ##entab, ##le)
 So we will recreate the words that have been split, and add their attention score.
 
-![the steps to "purify" the data](../images/nlp_exp/purify_data.png)
+![the steps to "purify" the data](https://github.com/Epwo/articles/blob/main/images/nlp_exp/purify_data.png?raw=true)
