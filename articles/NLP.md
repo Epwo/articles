@@ -3,7 +3,7 @@ title: "My hands-on with NLP"
 date: "2025-06-30"
 theme: "Coding"
 summary: "Explanation of my pipeline including NLP, and what I've learned"
-image: "https://www.codeandcortex.fr/wp-content/uploads/2025/02/Bert_image1.png"
+image: "https://raw.githubusercontent.com/Epwo/articles/refs/heads/main/images/nlp_exp/nlp_exp_header.jpg"
 ---
 
 # The purpose
