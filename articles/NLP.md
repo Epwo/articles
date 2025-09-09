@@ -1,7 +1,7 @@
 ---
 title: "My hands-on with NLP"
 date: "2025-06-30"
-theme: "Coding","ML"
+theme: "Coding,ML"
 summary: "Explanation of my pipeline including NLP, and what I've learned"
 image: "https://raw.githubusercontent.com/Epwo/articles/refs/heads/main/images/nlp_exp/nlp_exp_header.jpg"
 ---
