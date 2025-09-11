@@ -112,3 +112,4 @@ But first, to vizualise better what I was doing up to this point, and to see if 
 > [!Info]
 > Because there are too many clusters compared to the number of colors availbles in plotly, some clusters might look like they are from the same cluster, despite beeing in 2 different ones, but the color is the same, because the color is chosen randomly among a "short" list.
 
+*Work in progress*
