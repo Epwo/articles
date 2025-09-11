@@ -4,6 +4,7 @@ date: "2025-04-07"
 theme: "Coding,DevOps"
 summary: "Explanation of the differents bricks used to make a media suite, for me and my family. Using open source docker projects."
 image: "https://raw.githubusercontent.com/Epwo/articles/d9b4ed48e8e9c0a4c082673b9595e06ec3ebe2b2/images/stream_stack/stream_stack.png"
+status: "finished"
 ---
 
 # The purpose

@@ -4,6 +4,7 @@ date: "2025-06-30"
 theme: "Coding,ML"
 summary: "Explanation of my pipeline including NLP, and what I've learned"
 image: "https://raw.githubusercontent.com/Epwo/articles/refs/heads/main/images/nlp_exp/nlp_exp_header.jpg"
+status: "finished"
 ---
 
 # The purpose
@@ -112,4 +113,21 @@ But first, to vizualise better what I was doing up to this point, and to see if 
 > [!Info]
 > Because there are too many clusters compared to the number of colors availbles in plotly, some clusters might look like they are from the same cluster, despite beeing in 2 different ones, but the color is the same, because the color is chosen randomly among a "short" list.
 
-*Work in progress*
+## Extracting a category for each cluster
+
+Because the words close to each others are close in their meaning, each cluster (group of close words) should tend toward a category
+But how to display it ? The idea is to pass elements of the cluster into a LLM and ask him to find the category that could represent thoses words, if there is one if not return 'non-relevent'.
+The issue is that for somes csv (most of it) there will be a lot of words in each clusters, so it would be too long to pass to the LLM all of the words for each cluster.
+So I've chosen to take what I've called the centrals elements, meaning the points that are the closest to the core of the cluster; 
+Such as displayed on this schematic :
+![central elements explanation](https://github.com/Epwo/articles/blob/main/images/nlp_exp/central_elements.png?raw=true)
+
+# To sum it up
+To conclude the final pipeline as a whole
+![central elements explanation](https://github.com/Epwo/articles/blob/main/images/nlp_exp/inanutshell.png.png?raw=true)
+
+
+# The results
+In the end, I had to my opinion pretty good results. Which I sadly cannot share here because it was made for and during company time.
+It turns out that sadly, it could not be implemented in the app we were making because the category that it would output (while beeing relevents) where not corresponding to the naming that the end-users ,in the company, used. So we end up going with a much more high-level solution (with the release of gemini 2.5 and its 1M token context window) were we litterally input all of the CSV into gemini, and ask him to categorize.
+(Which is sadly a faster and more fitting solution for our precise use-case).
