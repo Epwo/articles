@@ -120,11 +120,11 @@ But how to display it ? The idea is to pass elements of the cluster into a LLM a
 The issue is that for somes csv (most of it) there will be a lot of words in each clusters, so it would be too long to pass to the LLM all of the words for each cluster.
 So I've chosen to take what I've called the centrals elements, meaning the points that are the closest to the core of the cluster; 
 Such as displayed on this schematic :
-![central elements explanation](https://github.com/Epwo/articles/blob/main/images/nlp_exp/central_elements.png?raw=true)
+![central elements explanation](https://github.com/Epwo/articles/blob/main/images/nlp_exp/centrals_elements.png?raw=true)
 
 # To sum it up
 To conclude the final pipeline as a whole
-![central elements explanation](https://github.com/Epwo/articles/blob/main/images/nlp_exp/inanutshell.png.png?raw=true)
+![central elements explanation](https://github.com/Epwo/articles/blob/main/images/nlp_exp/inanutshell.png?raw=true)
 
 
 # The results
