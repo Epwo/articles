@@ -1,5 +1,5 @@
 ---
-title: "My hands-on with NLP"
+title: "How to extract categories from a csv file"
 date: "2025-06-30"
 theme: "Coding,ML"
 summary: "Explanation of my pipeline including NLP, and what I've learned"
